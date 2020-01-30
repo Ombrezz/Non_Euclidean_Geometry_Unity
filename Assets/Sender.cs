@@ -10,7 +10,7 @@ public class Sender : MonoBehaviour {
     void Start () {
     }
 
-    void FixedUpdate()
+    void LateUpdate()
     {
         if (currentlyOverlappingObject != null) {
             var currentDot = Vector3.Dot(transform.up, currentlyOverlappingObject.transform.position - transform.position);
