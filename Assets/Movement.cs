@@ -29,7 +29,7 @@ public class Movement : MonoBehaviour
             _yAxisVelocity = -0.5f;
 
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && characterController.isGrounded)
             _yAxisVelocity = Mathf.Sqrt(jumpHeight * -2f * _gravity);
 
         _yAxisVelocity += _gravity * Time.deltaTime;

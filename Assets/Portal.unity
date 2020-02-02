@@ -567,7 +567,7 @@ MonoBehaviour:
   characterController: {fileID: 281494026}
   moveSpeed: 5
   sprintSpeedMultiplier: 2
-  jumpHeight: 0
+  jumpHeight: 2
 --- !u!114 &281494028
 MonoBehaviour:
   m_ObjectHideFlags: 0
