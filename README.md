@@ -1,6 +1,6 @@
 # Non Euclidean Geometry for Unity
  
-This is a demonstration of how it is possible to simulate Non-Euclidean geometry in Unity.  It's not extremely polished of perfect, but it still acheives the general idea.  The tunnel is short on the outside, and long on the inside.
+This is a demonstration of how it is possible to simulate Non-Euclidean geometry in Unity.  It's not extremely polished or perfect, but it still acheives the general idea.  The tunnel is short on the outside, and long on the inside.
 
 Web demo [here](noneuclideangeometry.epizy.com).
 
